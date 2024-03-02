@@ -1,0 +1,47 @@
+
+.sex-area {
+  padding: 20px;
+  text-align: center;
+}
+#boy, #girl {
+  width: 300px;
+}
+
+#input_area_boy, #input_area_girl {
+	display: block;
+}
+
+#input_area_boy {
+	display: none;
+}
+
+#boy_base_data_area {
+	display: none;
+}
+
+.tooltip {
+  color: black;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+	top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

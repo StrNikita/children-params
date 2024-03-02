@@ -1,0 +1,44 @@
+#print-girl, #print-boy {
+	display: none;
+}
+
+@page { size: auto;  margin: 0mm; }
+
+@media print {
+	body {
+		position: relative;
+		left: 0;
+		transform: none;
+		text-align: left;
+	}
+	h1, h4 {
+		display: none;
+	}
+	.result-info {
+		width: 800px;
+	}
+
+	.sex-area {
+		display: none;
+	}
+	.section-block {
+		display: none;
+		background-color: white;
+		box-shadow: none;
+	}
+
+	.result-section {
+		display: block;
+	}
+	.table-section {
+		display: block;
+	}
+ table {
+		width: 900px;
+	} 
+	.container {
+		position: absolute;
+		transform: none;
+		left: 0;
+	}
+}
